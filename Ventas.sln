@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.WinForms", "Source\Ventas.WinForms\Ventas.WinForms.csproj", "{189D3610-0DC5-41AC-B484-EDB8943E77AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{824D5B30-3E19-4043-8CAD-011862C74C7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{1E5C596E-B54F-4514-AACE-602836103DB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting Layer", "CrossCutting Layer", "{ADD4EAFE-1740-4788-8796-7EC51BD0D6FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Layer", "Entity Layer", "{D02A5547-8902-4C15-8C54-14149B379A3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services Layer", "Services Layer", "{D1047916-3E45-4FDE-BCF2-108F102A7C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Data", "Source\Ventas.Data\Ventas.Data.csproj", "{526F7E1F-FC73-4C03-B4C7-C72BAAF906AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Entity", "Source\Ventas.Entity\Ventas.Entity.csproj", "{0EFDB29B-B985-464D-B1F4-B954893B5D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Business", "Source\Ventas.Business\Ventas.Business.csproj", "{C103AB58-E8A6-4498-93DD-4CAB138948C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{189D3610-0DC5-41AC-B484-EDB8943E77AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189D3610-0DC5-41AC-B484-EDB8943E77AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189D3610-0DC5-41AC-B484-EDB8943E77AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189D3610-0DC5-41AC-B484-EDB8943E77AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526F7E1F-FC73-4C03-B4C7-C72BAAF906AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526F7E1F-FC73-4C03-B4C7-C72BAAF906AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526F7E1F-FC73-4C03-B4C7-C72BAAF906AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526F7E1F-FC73-4C03-B4C7-C72BAAF906AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFDB29B-B985-464D-B1F4-B954893B5D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFDB29B-B985-464D-B1F4-B954893B5D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFDB29B-B985-464D-B1F4-B954893B5D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFDB29B-B985-464D-B1F4-B954893B5D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C103AB58-E8A6-4498-93DD-4CAB138948C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C103AB58-E8A6-4498-93DD-4CAB138948C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C103AB58-E8A6-4498-93DD-4CAB138948C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C103AB58-E8A6-4498-93DD-4CAB138948C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{189D3610-0DC5-41AC-B484-EDB8943E77AC} = {824D5B30-3E19-4043-8CAD-011862C74C7A}
+		{526F7E1F-FC73-4C03-B4C7-C72BAAF906AD} = {1E5C596E-B54F-4514-AACE-602836103DB4}
+		{0EFDB29B-B985-464D-B1F4-B954893B5D3F} = {D02A5547-8902-4C15-8C54-14149B379A3C}
+		{C103AB58-E8A6-4498-93DD-4CAB138948C0} = {D1047916-3E45-4FDE-BCF2-108F102A7C83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
